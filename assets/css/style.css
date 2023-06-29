@@ -1,0 +1,55 @@
+/* IMPOSTAZIONI GENERALI */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/sfondo.png");
+  background-size: cover; /* Opzionale: regola la dimensione dell'immagine di sfondo */
+  background-position: center;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+li {
+  margin-bottom: 0.2rem;
+}
+
+/* HEADER */
+header {
+  background-image: linear-gradient(180deg, #2895cd, #0b6d88);
+  width: 90vw;
+  margin-inline: auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  padding: 2rem;
+  margin-top: 1rem;
+  box-shadow: 1px 3px 5px #000000bd;
+
+  /* chiaro : #2895cd */
+  /* scuro: #0b6d88 */
+}
+header img {
+  height: 50px;
+}
+h1 {
+  margin: 1rem;
+}
+
+/* MAIN */
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
