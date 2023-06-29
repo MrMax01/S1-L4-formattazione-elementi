@@ -8,8 +8,9 @@
 
 #sfondo {
   background-image: url("../img/sfondo.png");
-  background-size: cover; /* Opzionale: regola la dimensione dell'immagine di sfondo */
+  /* background-size: cover; */
   background-position: center;
+  background-repeat: repeat;
 }
 h3 {
   text-transform: uppercase;
@@ -170,3 +171,15 @@ div.box p:nth-of-type(2) {
   text-align: end;
 }
 /* FOOTER */
+footer {
+  background-image: linear-gradient(180deg, #005566, #354037 90%);
+  width: 90vw;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  margin: 1rem auto;
+  box-shadow: 1px 3px 5px #000000bd;
+}
+footer a {
+  color: #c62570;
+}
