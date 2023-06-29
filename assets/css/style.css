@@ -22,6 +22,11 @@ p {
   line-height: 1.2rem;
 }
 
+a {
+  font-weight: bold;
+  color: #009acb;
+}
+
 /* HEADER */
 header {
   background-image: linear-gradient(180deg, #2895cd, #0b6d88);
@@ -91,6 +96,40 @@ code {
 }
 
 /* TABELLE */
+caption {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 0.4rem;
+}
+table {
+  border-bottom: 2px solid #386acd;
+  margin-bottom: 1rem;
+}
+thead tr th {
+  background-color: #386acd;
+  color: white;
+  padding: 1rem;
+}
+
+thead tr th:nth-child(2) {
+  border-inline: 1px solid white;
+}
+
+tbody tr td {
+  padding: 1rem;
+}
+tbody tr:nth-child(even) {
+  background-color: #80808036;
+  border-top: 1px solid #9e9e9e;
+  border-bottom: 1px solid #9e9e9e;
+}
+
+iframe {
+  display: block;
+  width: 90%;
+  margin-inline: auto;
+  border-radius: 20px;
+}
 
 /* FORM */
 
