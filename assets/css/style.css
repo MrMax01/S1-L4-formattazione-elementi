@@ -11,7 +11,11 @@ body {
   background-size: cover; /* Opzionale: regola la dimensione dell'immagine di sfondo */
   background-position: center;
 }
-
+h3 {
+  text-transform: uppercase;
+  margin: 1rem;
+  font-weight: bold;
+}
 li {
   margin-bottom: 0.4rem;
   line-height: 1.2rem;
@@ -128,10 +132,38 @@ iframe {
   display: block;
   width: 90%;
   margin-inline: auto;
+  margin-bottom: 1rem;
   border-radius: 20px;
 }
 
 /* FORM */
+.contact-me {
+  width: 90%;
+  background-color: #80808036;
+  padding: 1rem;
+  margin-inline: auto;
+}
+.contact-me h3 {
+  text-align: center;
+}
+
+form {
+  width: 90%;
+}
+
+.contact-me input {
+  width: 70%;
+  border: none;
+  border-bottom: 1px dotted #386acd;
+  padding: 0.5rem 0.2rem;
+}
+.contact-me button {
+  color: white;
+  font-weight: bold;
+  background-color: #386acd;
+  border: none;
+  padding: 0.4rem 0.2rem;
+}
 
 /* ELEMENTI NELL' ASIDE */
 
